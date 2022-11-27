@@ -26,7 +26,8 @@ Declare the following environment variables:
 
 ```bash
 $ virtualenv -p python3 .venv
-$ pip install -r requirements.txt
-$ ./twitter2mastodon.py
+$ source .venv/bin/activate.sh
+(.venv) $ pip install -r requirements.txt
+(.venv) $ ./twitter2mastodon.py
 ```
 
